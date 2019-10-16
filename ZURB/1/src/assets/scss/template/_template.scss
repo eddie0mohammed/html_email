@@ -1,0 +1,38 @@
+
+td.columns, td.column, th.columns, th.column {
+  padding: 0;
+}
+
+.header {
+  background: red;
+  background-color: red;
+  // padding: 20px;
+
+  &.columns {
+    // padding-bottom: 0;
+    padding: 20px;
+
+    h1{
+      color:white;
+    }
+
+  
+  }
+}
+
+.secondRow th{
+  padding: 10px;
+}
+
+.footer{
+  background: black;
+  background-color: black;
+
+  .footer-container{
+    background: black;
+    background-color: black;
+  }
+  a{
+    color: red;
+  }
+}

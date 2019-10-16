@@ -1,0 +1,24 @@
+HTML EMAIL DEVELOPER
+
+1.  Optimize images
+    Tinypng.com
+
+2. Image Hosting: host image online and then link to images instead of inputing image in HTML
+
+
+
+
+STACK:
+ZURB
+-gulp
+-sass
+-inlining
+-build options
+-panini
+
+
+which html tags is supported?
+https://www.pinpointe.com/blog/email-campaign-html-and-css-support
+
+which css property work for a client you are trying to target?
+campaignmonitor.css
