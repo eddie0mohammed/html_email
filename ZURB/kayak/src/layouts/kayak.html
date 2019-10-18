@@ -12,21 +12,16 @@
   <!-- <style> -->
 </head>
 <body>
-
-
   <span class="preheader">{{description}}</span>
   <table class="body">
     <tr>
       <td class="center" align="center" valign="top">
         <center>
-
+            {{> header}}
             {{> body}}
             {{> footer}}
-
-            {{#repeat 10}}
-            <h5>Testing</h5>
-            {{/repeat}}
-
+            {{> header_black}}
+            {{> footer_bottom}}
 
         </center>
       </td>

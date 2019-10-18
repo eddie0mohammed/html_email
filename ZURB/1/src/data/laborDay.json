@@ -1,0 +1,21 @@
+{
+    "title": "90% off on labour day",
+    "products": [
+        {
+            "title": "Yeezy",
+            "price": 400,
+            "image_url": "https://media.kohlsimg.com/is/image/kohls/3498235_Black_White_Gray?wid=500&amp;hei=500&amp;op_sharpen=1"
+        },
+        {
+            "title": "Puma",
+            "price": 300,
+            "image_url": "https://media.kohlsimg.com/is/image/kohls/3498235_Black_White_Gray?wid=500&amp;hei=500&amp;op_sharpen=1"
+        },
+        {
+            "title": "Adidas",
+            "price": 200,
+            "image_url": "https://media.kohlsimg.com/is/image/kohls/3498235_Black_White_Gray?wid=500&amp;hei=500&amp;op_sharpen=1"
+        }
+    ]
+}
+

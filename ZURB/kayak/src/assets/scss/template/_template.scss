@@ -1,0 +1,112 @@
+
+html,body,.body{
+  background: #e4e5ea;
+  background-color: #e4e5ea;
+  padding-bottom: 500px;
+}
+
+td.columns, td.column, th.columns, th.column {
+  padding: 20px;
+}
+
+.header{
+  background: #ff690f;
+  background-color: #ff690f;
+
+  & .logo_white{
+    width: 128px;
+    // padding-left: 28px;
+  }
+  & .user_icon{
+    width: 32px;
+    // padding-right: 28px;
+
+  }
+}
+
+.sub-header{
+  background: #d65600;
+  background-color: #d65600;
+
+  .columns{
+    padding: 5px 0px;
+  }
+  a{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+
+    img{
+      width: 20px;
+      padding-right: 10px;
+      
+    }
+    th{
+      text-align: center;
+    }
+    
+  }
+}
+
+
+
+// --------------------------------
+.button1{
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 50px;
+  cursor: pointer;
+  // margin: 10px 0; 
+}
+.button2{
+  display: inline-block;
+  font-weight: 700;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  width:40%;
+  padding: 10px 0px;
+  cursor: pointer;
+  margin: 30px 0 10px 0; 
+}
+
+
+
+.first_row{
+  
+  
+  width: 90% !important;
+  margin: 10px auto;
+
+}
+
+
+.footer{
+  background: #222D37;
+  background-color: #222D37;
+
+  
+}
+
+.store_logos{
+  height: 40px !important;
+}
+
+.header_black_background{
+  background:#14191E;
+  background-color:#14191E;
+}
+
+.header_black{
+  background:#14191E;
+  background-color:#14191E;
+
+
+}
+
+
+

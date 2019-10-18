@@ -8,7 +8,7 @@ percentage: 40
 <container>
   <row>
     <columns class="collapse header">
-      <h1 class="text-center">{{subject}}</h1> 
+      <h1 class="text-center">{{laborDay.title}}</h1> 
     </columns>
   </row>
 
@@ -46,26 +46,37 @@ percentage: 40
       </center>
     </columns>
   </row>
+
+  <row>
+    <columns>
+      {{#markdown}}
+        # title
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         Laborum ab velit dolore sapiente sed odio nesciunt 
+         soluta unde iusto provident.
+      {{/markdown}}
+    </columns>
+  </row>
+
+
+  <row>
+    <columns>
+      {{#bold}}
+        # title
+        
+      {{/bold}}
+    </columns>
+  </row>
+
+  {{#each laborDay.products}}
+  <row>
+    <columns>
+     <img src={{this.image_url}} alt="image_url">
+    </columns>
+  </row>
+  {{/each}}
   
 </container>
 
-<spacer size=100></spacer>
+<!-- <spacer size=100></spacer> -->
 
-<wrapper class="footer">
-  <container class="footer-container">
-
-    <row>
-      <columns></columns>
-      <columns small="8" large="8">
-        <center>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Shop</a>
-        </center>
-        
-      </columns>
-      <columns></columns>
-    </row>
-  </container>
-</wrapper>
